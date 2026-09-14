@@ -1,0 +1,566 @@
+{
+  "lines": [
+    {
+      "quantity": "1.0000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:31:54.777257+00:00",
+      "net_amount": "35.00",
+      "tax_amount": "0.00",
+      "unit_price": "35.0000",
+      "updated_at": "2026-07-30T17:31:54.777257+00:00",
+      "description": "Disbursements - Agent Charges - Courier Services Ltd - 8012345678 - 379",
+      "document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "line_number": 0,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "35.00",
+      "item_metadata": null,
+      "dimension_data": null,
+      "document_item_id": "6b2f58bc-826a-4925-a35b-f0227a396432",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    },
+    {
+      "quantity": "1.0000",
+      "tax_rate": "0.1800",
+      "created_at": "2026-07-30T17:31:54.777257+00:00",
+      "net_amount": "20.00",
+      "tax_amount": "3.60",
+      "unit_price": "20.0000",
+      "updated_at": "2026-07-30T17:31:54.777257+00:00",
+      "description": "Documentation - Issue of T1 - 1 Item",
+      "document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "line_number": 1,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "23.60",
+      "item_metadata": null,
+      "dimension_data": null,
+      "document_item_id": "5c09503a-d786-45d2-b031-d4219ecbd707",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    },
+    {
+      "quantity": "1.0000",
+      "tax_rate": "0.1800",
+      "created_at": "2026-07-30T17:31:54.777257+00:00",
+      "net_amount": "30.00",
+      "tax_amount": "5.40",
+      "unit_price": "30.0000",
+      "updated_at": "2026-07-30T17:31:54.777257+00:00",
+      "description": "Transport - Dry | Vessel: Blue Horizon | Date: 20.11.25 | Pieces: 3 | Weight: 18 | Job: 10238",
+      "document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "line_number": 2,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "35.40",
+      "item_metadata": null,
+      "dimension_data": null,
+      "document_item_id": "5ec64865-ce97-44c2-957c-9604b32caa96",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    }
+  ],
+  "header": {
+    "status": "Ready to Post",
+    "file_id": "2d05117f-e4ed-4dd3-8142-9d61b7e6f88f",
+    "post_as": null,
+    "category": null,
+    "due_date": "2026-01-20",
+    "party_id": "f218acf7-04e7-41aa-96b3-ec621f11bf06",
+    "synced_at": null,
+    "created_at": "2026-07-30T17:31:54.652943+00:00",
+    "net_amount": "85.00",
+    "party_name": "SKYLINE FREIGHT LTD",
+    "tax_amount": "9.00",
+    "updated_at": "2026-07-30T17:32:18.435580+00:00",
+    "external_id": null,
+    "total_amount": "94.00",
+    "currency_code": "EUR",
+    "document_date": "2025-12-21",
+    "document_type": "PURCHASE_INVOICE",
+    "review_reason": null,
+    "pending_review": false,
+    "discount_amount": "0.00",
+    "document_number": "INV-8841",
+    "organization_id": "091b782b-4466-443d-a631-997bb92bfcd7",
+    "reference_number": null,
+    "document_metadata": null,
+    "organization_name": "Meridian & Co (Shipping) Ltd",
+    "assigned_dimensions": {
+      "code": [
+        "V7X0042"
+      ]
+    },
+    "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+    "core_purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+    "post_batch_transaction_id": null
+  },
+  "failures": [],
+  "warnings": [],
+  "validation": [],
+  "po_matching": {
+    "review_reasons": [],
+    "validation_rows": []
+  },
+  "final_status": "Ready to Post",
+  "review_queue": null,
+  "classification": [
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "0ad1e69a-50a2-4600-9312-09985627b327",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "voyage code",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "259df1f1-950a-4036-b179-cd57e46a91f3",
+      "dimension_value_id": "cabe4589-e7c0-4bf6-9226-5c369c04bd07",
+      "dimension_confidence": 1,
+      "dimension_value_name": "V7X0042",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "auto_approve",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "9eb2d21c-32d9-4a71-ae97-cc18e2e7273b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "vat",
+      "execution_type": "probabilistic",
+      "source_rule_id": null,
+      "decision_reason": "Document-level captured attribute Charge_Type is DUTIES_TAX, which is an authoritative direct routing signal toward customs/disbursement-type treatment. The line description also explicitly says 'Disbursements - Agent Charges', matching 6 (EXEMPT PURCHASES) for disbursements, customs charges settled on behalf, or reimbursement-type costs rather than a pure documentation/handling service.",
+      "rule_conditions": null,
+      "classification_id": "ff945b4b-90b4-4d4a-922b-a09f95186731",
+      "dimension_value_id": "d594604b-916a-4857-947a-f99bcd4a5825",
+      "dimension_confidence": 0.99,
+      "dimension_value_name": "EXEMPT PURCHASES",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": 0,
+      "dimension_consensus_ratio": 0,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "policy_auto",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "43102652-2f64-4997-aded-7b2725b5e513",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "faeffdf216ae874a",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "264a10da-7b03-443c-bba7-cf1f9dd4534c",
+      "dimension_value_id": "782887c9-da3c-458c-8c8f-37a414831899",
+      "dimension_confidence": 1,
+      "dimension_value_name": "SHIP CONTROL",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "policy_auto",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "9eb2d21c-32d9-4a71-ae97-cc18e2e7273b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "vat",
+      "execution_type": "deterministic",
+      "source_rule_id": "740ebd1d4b965778",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "0dfa8a5b-88b7-4626-b5ca-e4c61c86fcc0",
+      "dimension_value_id": "5804d6d3-067b-4dff-b68e-2725635eafb4",
+      "dimension_confidence": 1,
+      "dimension_value_name": "TAXABLE SERVICES    @ 18%",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "policy_auto",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "43102652-2f64-4997-aded-7b2725b5e513",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "740ebd1d4b965778",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "108b5813-712e-442e-a6b7-25422bcb81a1",
+      "dimension_value_id": "782887c9-da3c-458c-8c8f-37a414831899",
+      "dimension_confidence": 1,
+      "dimension_value_name": "SHIP CONTROL",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "0ad1e69a-50a2-4600-9312-09985627b327",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "voyage code",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "75fdcac3-c429-42e1-96a5-8c82674217df",
+      "dimension_value_id": "cabe4589-e7c0-4bf6-9226-5c369c04bd07",
+      "dimension_confidence": 1,
+      "dimension_value_name": "V7X0042",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "policy_auto",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "43102652-2f64-4997-aded-7b2725b5e513",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "740ebd1d4b965778",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "3f1f1d8f-1614-4e7c-9bab-deeb09f71750",
+      "dimension_value_id": "782887c9-da3c-458c-8c8f-37a414831899",
+      "dimension_confidence": 1,
+      "dimension_value_name": "SHIP CONTROL",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 2
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "0ad1e69a-50a2-4600-9312-09985627b327",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "voyage code",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "469ea527-d81e-4611-93ab-f3ddea3d81b4",
+      "dimension_value_id": "cabe4589-e7c0-4bf6-9226-5c369c04bd07",
+      "dimension_confidence": 1,
+      "dimension_value_name": "V7X0042",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 2
+    },
+    {
+      "date": "2026-07-30T17:32:10.498444+00:00",
+      "decision": "policy_auto",
+      "policy_id": "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "created_at": "2026-07-30T17:32:10.498444+00:00",
+      "updated_at": "2026-07-30T17:32:10.498444+00:00",
+      "dimension_id": "9eb2d21c-32d9-4a71-ae97-cc18e2e7273b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "vat",
+      "execution_type": "deterministic",
+      "source_rule_id": "740ebd1d4b965778",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "01951440-3523-45cb-bd61-0fd483c6b640",
+      "dimension_value_id": "5804d6d3-067b-4dff-b68e-2725635eafb4",
+      "dimension_confidence": 1,
+      "dimension_value_name": "TAXABLE SERVICES    @ 18%",
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 2
+    }
+  ],
+  "pending_review": false,
+  "processing_job": {
+    "job_id": "69651ce7-da02-4699-941f-b3eba60a94e2",
+    "status": "completed",
+    "last_error": null
+  },
+  "catalog_matching": {
+    "0": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    },
+    "1": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    },
+    "2": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    }
+  },
+  "policy_activation": {
+    "union": [
+      "1fbd318c-2fda-49ad-9c23-a4b3fb9b966b",
+      "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+      "95dd69e0-57d0-4c81-816e-1f4c0cf93b1e",
+      "e9cfb25b-6eae-42e0-a46c-b71e762ce926"
+    ],
+    "sources": {
+      "applicable": [
+        "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+        "1fbd318c-2fda-49ad-9c23-a4b3fb9b966b",
+        "95dd69e0-57d0-4c81-816e-1f4c0cf93b1e",
+        "e9cfb25b-6eae-42e0-a46c-b71e762ce926"
+      ],
+      "won_targets": [
+        "1fbd318c-2fda-49ad-9c23-a4b3fb9b966b",
+        "f720d4dd-8ec5-45be-92cc-bae5628465b1",
+        "95dd69e0-57d0-4c81-816e-1f4c0cf93b1e",
+        "e9cfb25b-6eae-42e0-a46c-b71e762ce926"
+      ],
+      "legacy_review": [],
+      "manual_promoted": [],
+      "validation_lines": {},
+      "document_validation": [],
+      "classification_lines": {
+        "0": [
+          "f720d4dd-8ec5-45be-92cc-bae5628465b1"
+        ],
+        "1": [
+          "f720d4dd-8ec5-45be-92cc-bae5628465b1"
+        ],
+        "2": [
+          "f720d4dd-8ec5-45be-92cc-bae5628465b1"
+        ]
+      }
+    }
+  },
+  "classification_explanations": [
+    {
+      "summary": null,
+      "created_at": "2026-07-30T17:32:10.572249+00:00",
+      "updated_at": "2026-07-30T17:32:10.572249+00:00",
+      "similar_documents": [
+        "879af4a4-b2c8-47ef-b792-7b1f41b6d95c",
+        "9b76d616-0078-4f72-9fdd-2cbe46b218a9",
+        "acc1d62e-6f19-4fa0-aa36-b83dedcf6b8e",
+        "040ea75c-2ec3-4e44-b7bf-013aa5c60ec4",
+        "7386a129-3837-4d82-a0a9-0101990b2d3e"
+      ],
+      "llm_context_metadata": {
+        "type": "probabilistic_rag_llm_context",
+        "model": "gpt-5.4",
+        "top_k": 5,
+        "prompt": "## New Items to Classify (each item below carries its OWN historical examples and frequency — classify each item using ONLY its own examples):\n\n- Item 0:\n\t- description: Disbursements - Agent Charges - Courier Services Ltd - 8012345678 - 379\n\t- vendor_name: SKYLINE FREIGHT LTD\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'SHIP CONTROL': '100.00%'}\n\t- frequency of dim_vat in THIS item's similar items: {'EXEMPT WITH CREDIT OTHERS': '80.00%', 'EXEMPT PURCHASES': '20.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_vat\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"FINAL FINAL DISB AGENT CHARGES COURIER J10669\",\"description\":\"FINAL FINAL DISB AGENT CHARGES COURIER J10669\",\"vendor_name\":\"SKYLINE FREIGHT LTD\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"SHIP CONTROL\",\"dim_vat\":\"EXEMPT WITH CREDIT OTHERS\",\"cosine_similarity\":0.6977698926},{\"description\":\"SY FINAL FINAL DISB AGENT CHRG COURIER J10554\",\"description\":\"SY FINAL FINAL DISB AGENT CHRG COURIER J10554\",\"vendor_name\":\"SKYLINE FREIGHT LTD\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"SHIP CONTROL\",\"dim_vat\":\"EXEMPT WITH CREDIT OTHERS\",\"cosine_similarity\":0.6594865071},{\"description\":\"SEA ASTER DISB - AGENT CHARGES - COURIER J10575\",\"description\":\"SEA ASTER DISB - AGENT CHARGES - COURIER J10575\",\"vendor_name\":\"SKYLINE FREIGHT LTD\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"SHIP CONTROL\",\"dim_vat\":\"EXEMPT WITH CREDIT OTHERS\",\"cosine_similarity\":0.6207853444},{\"description\":\"SEA BLUEBELL DISB AGENT CHRGS COURIER J10513\",\"description\":\"SEA BLUEBELL DISB AGENT CHRGS COURIER J10513\",\"vendor_name\":\"SKYLINE FREIGHT LTD\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"SHIP CONTROL\",\"dim_vat\":\"EXEMPT WITH CREDIT OTHERS\",\"cosine_similarity\":0.6037299153},{\"description\":\"SEA CORAL DISB AGENT CHRG COURIER J10425\",\"description\":\"SEA CORAL DISB AGENT CHRG COURIER J10425\",\"vendor_name\":\"SKYLINE FREIGHT LTD\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"SHIP CONTROL\",\"dim_vat\":\"EXEMPT PURCHASES\",\"cosine_similarity\":0.5874931093}]}",
+        "version": 1,
+        "batch_size": 1,
+        "query_text": "Disbursements - Agent Charges - Courier Services Ltd - 8012345678 - 379",
+        "instructions": "You are an AI assistant that classifies invoice line items based on similar historical examples.\n\n## Custom Classification Instructions\n## Captured Attributes (from data capture policies)\nThe following attributes are authoritative facts captured from this document. When an attribute code/value directly identifies one of a classification target's allowed values, that is a mandatory routing decision: you MUST choose that value even when line-description rules, instructions, or historical examples conflict. Never override a direct captured-attribute match. A document-level attribute applies to every line. Do not use captured attributes to introduce target values outside the allowed candidate set.\nDocument-level (apply to every line):\n- IBAN_Number: MT40BANK22013000000012345678901\n- Voyage_Number: V7X0042\nLine-level (apply only to the specified line):\n- line 0 · Charge_Type: DUTIES_TAX\n- line 0 · Shipment_Mode: UNKNOWN\n- line 1 · Charge_Type: DOCUMENTATION\n- line 1 · Shipment_Mode: UNKNOWN\n- line 2 · Charge_Type: HAULAGE\n\n### dim_nominal\n**Values seen in examples**: SHIP CONTROL\n\n### dim_vat\n**All possible values**: E, 6\n**Value code + human-readable name**:\n- E (EXEMPT WITH CREDIT OTHERS)\n- 6 (EXEMPT PURCHASES)\n\n## Task\nBased on the new items below and the similar historical examples above, classify each item.\nChoose from the possible values listed above for each target.\nYou MUST pick a value for every target on every item — never return null/None. When the examples are weak or contradictory, pick the closest reasonable option, lower the target's ``probability`` to reflect that uncertainty, and set the target's ``human_review_required`` to true so a person can confirm.\n\nReturn a JSON object with:\n- `classified_targets`: An object with `label`, `probability`, `reason`, and `human_review_required` for each target. Evaluate EACH target INDEPENDENTLY — a low-confidence pick on one target must NOT force `human_review_required=true` on a sibling target that is well-supported by the examples. Use human-readable dimension value names in every reason field when the prompt provides them (e.g. 'KITCHEN', 'Materials Purchased'). When a value code and name are provided together, cite the selected code together with its human-readable name (e.g. '0 (SERVICES & OVERHEADS @18%)'), never as a bare 'label 0'. Never expose UUIDs or raw database identifiers. If only a coded target value is available, do not invent a friendly name; cite the line descriptions and refer to the exact structured `label` code. The structured `label` field must still be the exact coded value from the allowed enum.\n- `confidence`: Your overall confidence in this classification (0.0 to 1.0)",
+        "target_enums": {
+          "dim_vat": [
+            "E",
+            "6"
+          ],
+          "dim_nominal": [
+            "SHIP CONTROL"
+          ]
+        },
+        "similar_items": [
+          {
+            "dim_vat": "EXEMPT WITH CREDIT OTHERS",
+            "description": "FINAL FINAL DISB AGENT CHARGES COURIER J10669",
+            "dim_nominal": "SHIP CONTROL",
+            "vendor_name": "SKYLINE FREIGHT LTD",
+            "document_date": "2026-03-31",
+            "line_tax_rate": 0,
+            "line_tax_amount": 0,
+            "document_item_id": "879af4a4-b2c8-47ef-b792-7b1f41b6d95c",
+            "cosine_similarity": 0.6977698925937339
+          },
+          {
+            "dim_vat": "EXEMPT WITH CREDIT OTHERS",
+            "description": "SY FINAL FINAL DISB AGENT CHRG COURIER J10554",
+            "dim_nominal": "SHIP CONTROL",
+            "vendor_name": "SKYLINE FREIGHT LTD",
+            "document_date": "2026-03-13",
+            "line_tax_rate": 0,
+            "line_tax_amount": 0,
+            "document_item_id": "9b76d616-0078-4f72-9fdd-2cbe46b218a9",
+            "cosine_similarity": 0.6594865070913398
+          },
+          {
+            "dim_vat": "EXEMPT WITH CREDIT OTHERS",
+            "description": "SEA ASTER DISB - AGENT CHARGES - COURIER J10575",
+            "dim_nominal": "SHIP CONTROL",
+            "vendor_name": "SKYLINE FREIGHT LTD",
+            "document_date": "2026-03-31",
+            "line_tax_rate": 0,
+            "line_tax_amount": 0,
+            "document_item_id": "acc1d62e-6f19-4fa0-aa36-b83dedcf6b8e",
+            "cosine_similarity": 0.6207853444290716
+          },
+          {
+            "dim_vat": "EXEMPT WITH CREDIT OTHERS",
+            "description": "SEA BLUEBELL DISB AGENT CHRGS COURIER J10513",
+            "dim_nominal": "SHIP CONTROL",
+            "vendor_name": "SKYLINE FREIGHT LTD",
+            "document_date": "2026-03-13",
+            "line_tax_rate": 0,
+            "line_tax_amount": 0,
+            "document_item_id": "040ea75c-2ec3-4e44-b7bf-013aa5c60ec4",
+            "cosine_similarity": 0.6037299152832
+          },
+          {
+            "dim_vat": "EXEMPT PURCHASES",
+            "description": "SEA CORAL DISB AGENT CHRG COURIER J10425",
+            "dim_nominal": "SHIP CONTROL",
+            "vendor_name": "SKYLINE FREIGHT LTD",
+            "document_date": "2026-03-10",
+            "line_tax_rate": 0,
+            "line_tax_amount": 0,
+            "document_item_id": "7386a129-3837-4d82-a0a9-0101990b2d3e",
+            "cosine_similarity": 0.5874931093348694
+          }
+        ],
+        "query_features": {
+          "description": "Disbursements - Agent Charges - Courier Services Ltd - 8012345678 - 379",
+          "vendor_name": "SKYLINE FREIGHT LTD",
+          "line_tax_rate": "0.0",
+          "line_tax_amount": 0
+        },
+        "retrieved_count": 5,
+        "batch_item_index": 0,
+        "reasoning_effort": null,
+        "frequency_by_target": {
+          "dim_vat": {
+            "EXEMPT PURCHASES": "20.00%",
+            "EXEMPT WITH CREDIT OTHERS": "80.00%"
+          },
+          "dim_nominal": {
+            "SHIP CONTROL": "100.00%"
+          }
+        }
+      },
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "purchase_document_line_item": 0,
+      "classification_explanation_id": "bbf1d9a0-c2b3-4d2e-ae10-c8d3de96fe7b"
+    },
+    {
+      "summary": "Deterministic policy match: 740ebd1d4b965778",
+      "created_at": "2026-07-30T17:32:10.610945+00:00",
+      "updated_at": "2026-07-30T17:32:10.610945+00:00",
+      "similar_documents": [],
+      "llm_context_metadata": {
+        "policy_ids": [
+          "f720d4dd-8ec5-45be-92cc-bae5628465b1"
+        ],
+        "source_rule_ids": [
+          "740ebd1d4b965778"
+        ],
+        "classification_method": "deterministic"
+      },
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "purchase_document_line_item": 1,
+      "classification_explanation_id": "f016a7cc-8714-4971-b275-599ee0e41fc5"
+    },
+    {
+      "summary": "Deterministic policy match: 740ebd1d4b965778",
+      "created_at": "2026-07-30T17:32:10.646541+00:00",
+      "updated_at": "2026-07-30T17:32:10.646541+00:00",
+      "similar_documents": [],
+      "llm_context_metadata": {
+        "policy_ids": [
+          "f720d4dd-8ec5-45be-92cc-bae5628465b1"
+        ],
+        "source_rule_ids": [
+          "740ebd1d4b965778"
+        ],
+        "classification_method": "deterministic"
+      },
+      "purchase_document_id": "ba397060-fa06-57f0-aa01-c5a67ab0f8f4",
+      "purchase_document_line_item": 2,
+      "classification_explanation_id": "db5b7182-f6b7-4159-819a-4e11a0a36ec2"
+    }
+  ]
+}

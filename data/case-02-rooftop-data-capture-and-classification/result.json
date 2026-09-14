@@ -1,0 +1,777 @@
+{
+  "lines": [
+    {
+      "quantity": "7.5000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:16:46.842470+00:00",
+      "net_amount": "104.25",
+      "tax_amount": "0.00",
+      "unit_price": "13.9000",
+      "updated_at": "2026-07-30T17:16:46.842470+00:00",
+      "description": "Starfruit Fresh large fillet skinless",
+      "document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "line_number": 0,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "104.25",
+      "item_metadata": {
+        "unit_of_measure": "KG"
+      },
+      "dimension_data": null,
+      "document_item_id": "b2e37419-d5b5-4fcc-8716-bd8ea9f94c69",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    },
+    {
+      "quantity": "5.0000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:16:46.842470+00:00",
+      "net_amount": "24.00",
+      "tax_amount": "0.00",
+      "unit_price": "4.8000",
+      "updated_at": "2026-07-30T17:16:46.842470+00:00",
+      "description": "Lychee Fresh",
+      "document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "line_number": 1,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "24.00",
+      "item_metadata": {
+        "unit_of_measure": "KG"
+      },
+      "dimension_data": null,
+      "document_item_id": "975c2f9c-58e6-41f2-a4dd-9224a6251c96",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    },
+    {
+      "quantity": "1.7000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:16:46.842470+00:00",
+      "net_amount": "18.53",
+      "tax_amount": "0.00",
+      "unit_price": "10.9000",
+      "updated_at": "2026-07-30T17:16:46.842470+00:00",
+      "description": "Coconut",
+      "document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "line_number": 2,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "18.53",
+      "item_metadata": {
+        "unit_of_measure": "KG"
+      },
+      "dimension_data": null,
+      "document_item_id": "183e86f6-c2ab-438e-8e32-62d97e225bf0",
+      "match_confidence": null,
+      "matched_po_number": null,
+      "catalog_match_type": null,
+      "matched_po_line_id": null,
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": null,
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": null,
+      "unit_price_excluding_discount": null
+    }
+  ],
+  "header": {
+    "status": "Ready to Post",
+    "file_id": "747c2aeb-284f-424f-adce-ff488579e3e5",
+    "post_as": null,
+    "category": null,
+    "due_date": null,
+    "party_id": "10c04d9f-3bb1-4e4b-80b8-b546d69b9c75",
+    "synced_at": null,
+    "created_at": "2026-07-30T17:16:46.686163+00:00",
+    "net_amount": "146.78",
+    "party_name": "Blue Harbour Fish & Seafood",
+    "tax_amount": "0.00",
+    "updated_at": "2026-07-30T17:17:08.397544+00:00",
+    "external_id": null,
+    "total_amount": "146.78",
+    "currency_code": "EUR",
+    "document_date": "2026-07-01",
+    "document_type": "PURCHASE_INVOICE",
+    "review_reason": null,
+    "pending_review": false,
+    "discount_amount": "0.00",
+    "document_number": "78214",
+    "organization_id": "a6628fd7-8c8a-4cfe-a983-4556a316bd51",
+    "reference_number": null,
+    "document_metadata": null,
+    "organization_name": "CROWN LEISURE LIMITED (City Hotel)",
+    "assigned_dimensions": {},
+    "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+    "core_purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+    "post_batch_transaction_id": null
+  },
+  "failures": [],
+  "warnings": [],
+  "validation": [],
+  "po_matching": {
+    "review_reasons": [],
+    "validation_rows": []
+  },
+  "final_status": "Ready to Post",
+  "review_queue": null,
+  "classification": [
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "804f41b7-8283-4889-b09c-97930f14da51",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "tax_code",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "0b66a98e-8ece-479a-8143-b074ab46039d",
+      "dimension_value_id": "0e5cafbf-d24d-4761-95cf-0c4a1135a721",
+      "dimension_confidence": 1,
+      "dimension_value_name": "T0",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "auto_approve",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "d64cc35d-13ab-4264-9af8-742846f6207b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "department",
+      "execution_type": "probabilistic",
+      "source_rule_id": null,
+      "decision_reason": "Document-level captured attribute is_rooftop=True is an authoritative direct routing signal, so this line must be classified to 9 (ROOFTOP RESTAURANT). The line description 'Starfruit Fresh large fillet skinless' would otherwise resemble a prepared fillet often used in KITCHEN, but captured attributes override description-based rules.",
+      "rule_conditions": null,
+      "classification_id": "b5d2c007-a606-4b70-b2b7-05c4dd7e7211",
+      "dimension_value_id": "92567a81-c5ed-43ab-a49b-6526b556794b",
+      "dimension_confidence": 0.99,
+      "dimension_value_name": "ROOFTOP RESTAURANT",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": 0,
+      "dimension_consensus_ratio": 0,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "cd6c5f7a-9788-4bf4-9949-62fa90437b4b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "0d17c4b2-5956-4d5f-acf5-d21b5db36a01",
+      "dimension_value_id": "2f185849-13de-4776-9289-998dd6186872",
+      "dimension_confidence": 1,
+      "dimension_value_name": "Materials Purchased",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "804f41b7-8283-4889-b09c-97930f14da51",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "tax_code",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "b0ceadbd-e39f-4209-94d8-bf077ecd0213",
+      "dimension_value_id": "0e5cafbf-d24d-4761-95cf-0c4a1135a721",
+      "dimension_confidence": 1,
+      "dimension_value_name": "T0",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "auto_approve",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "d64cc35d-13ab-4264-9af8-742846f6207b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "department",
+      "execution_type": "probabilistic",
+      "source_rule_id": null,
+      "decision_reason": "Document-level captured attribute is_rooftop=True is an authoritative direct routing signal, so this line must be classified to 9 (ROOFTOP RESTAURANT). The line description 'Lychee Fresh' also aligns with fresh seafood wording that fits 9 (ROOFTOP RESTAURANT).",
+      "rule_conditions": null,
+      "classification_id": "b5a543eb-5cec-466e-be08-a7815783bce0",
+      "dimension_value_id": "92567a81-c5ed-43ab-a49b-6526b556794b",
+      "dimension_confidence": 0.99,
+      "dimension_value_name": "ROOFTOP RESTAURANT",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": 0,
+      "dimension_consensus_ratio": 0,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "cd6c5f7a-9788-4bf4-9949-62fa90437b4b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "3bec0790-8726-4eda-a90b-54f687217b26",
+      "dimension_value_id": "2f185849-13de-4776-9289-998dd6186872",
+      "dimension_confidence": 1,
+      "dimension_value_name": "Materials Purchased",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "auto_approve",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "d64cc35d-13ab-4264-9af8-742846f6207b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "department",
+      "execution_type": "probabilistic",
+      "source_rule_id": null,
+      "decision_reason": "Document-level captured attribute is_rooftop=True is an authoritative direct routing signal, so this line must be classified to 9 (ROOFTOP RESTAURANT). The generic fresh seafood description 'Coconut' also fits the preference for 9 (ROOFTOP RESTAURANT) on whole or generic fresh fish items.",
+      "rule_conditions": null,
+      "classification_id": "ffca1dfd-7235-4e96-8e3d-a58d0ecd2da0",
+      "dimension_value_id": "92567a81-c5ed-43ab-a49b-6526b556794b",
+      "dimension_confidence": 0.99,
+      "dimension_value_name": "ROOFTOP RESTAURANT",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": 0,
+      "dimension_consensus_ratio": 0,
+      "purchase_document_line_item": 2
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "cd6c5f7a-9788-4bf4-9949-62fa90437b4b",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "nominal",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "81ff1ff8-81aa-4b03-a895-75a66469f315",
+      "dimension_value_id": "2f185849-13de-4776-9289-998dd6186872",
+      "dimension_confidence": 1,
+      "dimension_value_name": "Materials Purchased",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 2
+    },
+    {
+      "date": "2026-07-30T17:17:01.064983+00:00",
+      "decision": "policy_auto",
+      "policy_id": "aa594718-ff52-4df1-a01a-28538d754983",
+      "created_at": "2026-07-30T17:17:01.064983+00:00",
+      "updated_at": "2026-07-30T17:17:01.064983+00:00",
+      "dimension_id": "804f41b7-8283-4889-b09c-97930f14da51",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "tax_code",
+      "execution_type": "deterministic",
+      "source_rule_id": "fc20c9b548e47d80",
+      "decision_reason": "Deterministic policy match",
+      "rule_conditions": null,
+      "classification_id": "11d054c8-ffeb-4bd2-bedb-add2e38e2dce",
+      "dimension_value_id": "0e5cafbf-d24d-4761-95cf-0c4a1135a721",
+      "dimension_confidence": 1,
+      "dimension_value_name": "T0",
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 2
+    }
+  ],
+  "pending_review": false,
+  "processing_job": {
+    "job_id": "12cf78cf-46cf-462d-8d64-f5a4e389a784",
+    "status": "completed",
+    "last_error": null
+  },
+  "catalog_matching": {
+    "0": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    },
+    "1": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    },
+    "2": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    }
+  },
+  "policy_activation": {
+    "union": [
+      "aa594718-ff52-4df1-a01a-28538d754983",
+      "6e4bf81a-65b6-4a96-a1e7-1815e95191e2"
+    ],
+    "sources": {
+      "applicable": [
+        "aa594718-ff52-4df1-a01a-28538d754983",
+        "6e4bf81a-65b6-4a96-a1e7-1815e95191e2"
+      ],
+      "won_targets": [
+        "aa594718-ff52-4df1-a01a-28538d754983",
+        "6e4bf81a-65b6-4a96-a1e7-1815e95191e2"
+      ],
+      "legacy_review": [],
+      "manual_promoted": [],
+      "validation_lines": {},
+      "document_validation": [],
+      "classification_lines": {
+        "0": [
+          "aa594718-ff52-4df1-a01a-28538d754983"
+        ],
+        "1": [
+          "aa594718-ff52-4df1-a01a-28538d754983"
+        ],
+        "2": [
+          "aa594718-ff52-4df1-a01a-28538d754983"
+        ]
+      }
+    }
+  },
+  "classification_explanations": [
+    {
+      "summary": null,
+      "created_at": "2026-07-30T17:17:01.135952+00:00",
+      "updated_at": "2026-07-30T17:17:01.135952+00:00",
+      "similar_documents": [
+        "7a5590d6-8af8-4ff7-bb8c-5a8d68178190",
+        "ad093e17-907d-4a02-8b08-5a4dcf0c3d83",
+        "5b0c7279-f486-4c0e-a77b-61b34a731214",
+        "9bd0594b-dbd4-4a16-8915-f3d50317b473",
+        "ff4c7528-a8e0-4c8e-91fe-7c2c81776f7c"
+      ],
+      "llm_context_metadata": {
+        "type": "probabilistic_rag_llm_context",
+        "model": "gpt-5.4",
+        "top_k": 5,
+        "prompt": "## New Items to Classify (each item below carries its OWN historical examples and frequency — classify each item using ONLY its own examples):\n\n- Item 0:\n\t- description: Starfruit Fresh large fillet skinless\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Starfruit Fresh large fillet skinless\",\"description\":\"Starfruit Fresh large fillet skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":1.0},{\"description\":\"Starfruit Fresh large fillets skinless\",\"description\":\"Starfruit Fresh large fillets skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9929198453},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet\",\"description\":\"Starfruit Fresh large fillet\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9529122084}]}\n- Item 1:\n\t- description: Lychee Fresh\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.999998869},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089}]}\n- Item 2:\n\t- description: Coconut\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'KITCHEN': '60.00%', 'ROOFTOP RESTAURANT': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"coconut\",\"description\":\"coconut\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9155628906},{\"description\":\"coconut fresh loin imp\",\"description\":\"coconut fresh loin imp\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.6104894173},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886}]}",
+        "version": 1,
+        "batch_size": 3,
+        "query_text": "Starfruit Fresh large fillet skinless",
+        "instructions": "You are an AI assistant that classifies invoice line items based on similar historical examples.\n\n## Custom Classification Instructions\n## Captured Attributes (from data capture policies)\nThe following attributes are authoritative facts captured from this document. When an attribute code/value directly identifies one of a classification target's allowed values, that is a mandatory routing decision: you MUST choose that value even when line-description rules, instructions, or historical examples conflict. Never override a direct captured-attribute match. A document-level attribute applies to every line. Do not use captured attributes to introduce target values outside the allowed candidate set.\nDocument-level (apply to every line):\n- is_rooftop: True\n\n### dim_nominal\n**Values seen in examples**: Materials Purchased\n\n### dim_department\n**All possible values**: 1, 9\n**Value code + human-readable name**:\n- 1 (KITCHEN)\n- 9 (ROOFTOP RESTAURANT)\n\n### dim_tax_code\n**Values seen in examples**: T0\n\n## Task\nBased on the new items below and the similar historical examples above, classify each item.\nChoose from the possible values listed above for each target.\nYou MUST pick a value for every target on every item — never return null/None. When the examples are weak or contradictory, pick the closest reasonable option, lower the target's ``probability`` to reflect that uncertainty, and set the target's ``human_review_required`` to true so a person can confirm.\n\nReturn a JSON object with:\n- `classified_targets`: An object with `label`, `probability`, `reason`, and `human_review_required` for each target. Evaluate EACH target INDEPENDENTLY — a low-confidence pick on one target must NOT force `human_review_required=true` on a sibling target that is well-supported by the examples. Use human-readable dimension value names in every reason field when the prompt provides them (e.g. 'KITCHEN', 'Materials Purchased'). When a value code and name are provided together, cite the selected code together with its human-readable name (e.g. '0 (SERVICES & OVERHEADS @18%)'), never as a bare 'label 0'. Never expose UUIDs or raw database identifiers. If only a coded target value is available, do not invent a friendly name; cite the line descriptions and refer to the exact structured `label` code. The structured `label` field must still be the exact coded value from the allowed enum.\n- `confidence`: Your overall confidence in this classification (0.0 to 1.0)",
+        "target_enums": {
+          "dim_nominal": [
+            "Materials Purchased"
+          ],
+          "dim_tax_code": [
+            "T0"
+          ],
+          "dim_department": [
+            "1",
+            "9"
+          ]
+        },
+        "similar_items": [
+          {
+            "description": "Starfruit Fresh large fillet skinless",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-08",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "7a5590d6-8af8-4ff7-bb8c-5a8d68178190",
+            "cosine_similarity": 1
+          },
+          {
+            "description": "Starfruit Fresh large fillets skinless",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-16",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "ad093e17-907d-4a02-8b08-5a4dcf0c3d83",
+            "cosine_similarity": 0.9929198452707062
+          },
+          {
+            "description": "Starfruit Fresh large fillet skinoff",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-01",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "5b0c7279-f486-4c0e-a77b-61b34a731214",
+            "cosine_similarity": 0.9756758351541117
+          },
+          {
+            "description": "Starfruit Fresh large fillet skinoff",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-03-10",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "9bd0594b-dbd4-4a16-8915-f3d50317b473",
+            "cosine_similarity": 0.9756758351541117
+          },
+          {
+            "description": "Starfruit Fresh large fillet",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-03-18",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "ff4c7528-a8e0-4c8e-91fe-7c2c81776f7c",
+            "cosine_similarity": 0.9529122083589827
+          }
+        ],
+        "query_features": {
+          "description": "Starfruit Fresh large fillet skinless",
+          "vendor_name": "Blue Harbour Fish & Seafood",
+          "line_tax_rate": "0.0",
+          "line_tax_amount": 0
+        },
+        "retrieved_count": 5,
+        "batch_item_index": 0,
+        "reasoning_effort": null,
+        "frequency_by_target": {
+          "dim_nominal": {
+            "Materials Purchased": "100.00%"
+          },
+          "dim_tax_code": {
+            "T0": "100.00%"
+          },
+          "dim_department": {
+            "KITCHEN": "40.00%",
+            "ROOFTOP RESTAURANT": "60.00%"
+          }
+        }
+      },
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "purchase_document_line_item": 0,
+      "classification_explanation_id": "26a9484d-0d91-4cf3-ad75-5ac111afc47d"
+    },
+    {
+      "summary": null,
+      "created_at": "2026-07-30T17:17:01.177642+00:00",
+      "updated_at": "2026-07-30T17:17:01.177642+00:00",
+      "similar_documents": [
+        "14dcb83a-201a-4db8-8e95-3cd8b96b985c",
+        "f510519d-d862-42d8-9282-7b7f65b58abd",
+        "e0c0583b-7432-497e-abc3-f1d08d061840",
+        "3292fbda-429d-4e79-9073-060b2af65abd",
+        "e06f31ab-e325-47be-9c87-b08fed43cfd3"
+      ],
+      "llm_context_metadata": {
+        "type": "probabilistic_rag_llm_context",
+        "model": "gpt-5.4",
+        "top_k": 5,
+        "prompt": "## New Items to Classify (each item below carries its OWN historical examples and frequency — classify each item using ONLY its own examples):\n\n- Item 0:\n\t- description: Starfruit Fresh large fillet skinless\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Starfruit Fresh large fillet skinless\",\"description\":\"Starfruit Fresh large fillet skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":1.0},{\"description\":\"Starfruit Fresh large fillets skinless\",\"description\":\"Starfruit Fresh large fillets skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9929198453},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet\",\"description\":\"Starfruit Fresh large fillet\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9529122084}]}\n- Item 1:\n\t- description: Lychee Fresh\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.999998869},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089}]}\n- Item 2:\n\t- description: Coconut\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'KITCHEN': '60.00%', 'ROOFTOP RESTAURANT': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"coconut\",\"description\":\"coconut\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9155628906},{\"description\":\"coconut fresh loin imp\",\"description\":\"coconut fresh loin imp\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.6104894173},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886}]}",
+        "version": 1,
+        "batch_size": 3,
+        "query_text": "Lychee Fresh",
+        "instructions": "You are an AI assistant that classifies invoice line items based on similar historical examples.\n\n## Custom Classification Instructions\n## Captured Attributes (from data capture policies)\nThe following attributes are authoritative facts captured from this document. When an attribute code/value directly identifies one of a classification target's allowed values, that is a mandatory routing decision: you MUST choose that value even when line-description rules, instructions, or historical examples conflict. Never override a direct captured-attribute match. A document-level attribute applies to every line. Do not use captured attributes to introduce target values outside the allowed candidate set.\nDocument-level (apply to every line):\n- is_rooftop: True\n\n### dim_nominal\n**Values seen in examples**: Materials Purchased\n\n### dim_department\n**All possible values**: 1, 9\n**Value code + human-readable name**:\n- 1 (KITCHEN)\n- 9 (ROOFTOP RESTAURANT)\n\n### dim_tax_code\n**Values seen in examples**: T0\n\n## Task\nBased on the new items below and the similar historical examples above, classify each item.\nChoose from the possible values listed above for each target.\nYou MUST pick a value for every target on every item — never return null/None. When the examples are weak or contradictory, pick the closest reasonable option, lower the target's ``probability`` to reflect that uncertainty, and set the target's ``human_review_required`` to true so a person can confirm.\n\nReturn a JSON object with:\n- `classified_targets`: An object with `label`, `probability`, `reason`, and `human_review_required` for each target. Evaluate EACH target INDEPENDENTLY — a low-confidence pick on one target must NOT force `human_review_required=true` on a sibling target that is well-supported by the examples. Use human-readable dimension value names in every reason field when the prompt provides them (e.g. 'KITCHEN', 'Materials Purchased'). When a value code and name are provided together, cite the selected code together with its human-readable name (e.g. '0 (SERVICES & OVERHEADS @18%)'), never as a bare 'label 0'. Never expose UUIDs or raw database identifiers. If only a coded target value is available, do not invent a friendly name; cite the line descriptions and refer to the exact structured `label` code. The structured `label` field must still be the exact coded value from the allowed enum.\n- `confidence`: Your overall confidence in this classification (0.0 to 1.0)",
+        "target_enums": {
+          "dim_nominal": [
+            "Materials Purchased"
+          ],
+          "dim_tax_code": [
+            "T0"
+          ],
+          "dim_department": [
+            "1",
+            "9"
+          ]
+        },
+        "similar_items": [
+          {
+            "description": "Lychee Fresh",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-24",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "14dcb83a-201a-4db8-8e95-3cd8b96b985c",
+            "cosine_similarity": 0.9999988689556398
+          },
+          {
+            "description": "Lychee Fresh",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-17",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "f510519d-d862-42d8-9282-7b7f65b58abd",
+            "cosine_similarity": 0.9999991088809185
+          },
+          {
+            "description": "Lychee Fresh",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-14",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "e0c0583b-7432-497e-abc3-f1d08d061840",
+            "cosine_similarity": 0.9999991088809185
+          },
+          {
+            "description": "Lychee Fresh",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-08",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "3292fbda-429d-4e79-9073-060b2af65abd",
+            "cosine_similarity": 0.9999991088809185
+          },
+          {
+            "description": "Lychee Fresh",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2026-04-01",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "e06f31ab-e325-47be-9c87-b08fed43cfd3",
+            "cosine_similarity": 0.9999991088809185
+          }
+        ],
+        "query_features": {
+          "description": "Lychee Fresh",
+          "vendor_name": "Blue Harbour Fish & Seafood",
+          "line_tax_rate": "0.0",
+          "line_tax_amount": 0
+        },
+        "retrieved_count": 5,
+        "batch_item_index": 1,
+        "reasoning_effort": null,
+        "frequency_by_target": {
+          "dim_nominal": {
+            "Materials Purchased": "100.00%"
+          },
+          "dim_tax_code": {
+            "T0": "100.00%"
+          },
+          "dim_department": {
+            "KITCHEN": "40.00%",
+            "ROOFTOP RESTAURANT": "60.00%"
+          }
+        }
+      },
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "purchase_document_line_item": 1,
+      "classification_explanation_id": "3a1e0b9b-c9dd-4506-828a-6b299b544256"
+    },
+    {
+      "summary": null,
+      "created_at": "2026-07-30T17:17:01.219332+00:00",
+      "updated_at": "2026-07-30T17:17:01.219332+00:00",
+      "similar_documents": [
+        "fa11b625-32d1-4d3c-9671-196cf7fcb7ac",
+        "0f710c27-6e76-4893-81d7-4340af5bda73",
+        "fe326b21-5d04-42c9-8641-f22684f42f2f",
+        "92a61d45-6749-46d1-abd9-ad74e68f2f8b",
+        "1b3ad19d-2d0c-4c82-9b73-98394ddd42c9"
+      ],
+      "llm_context_metadata": {
+        "type": "probabilistic_rag_llm_context",
+        "model": "gpt-5.4",
+        "top_k": 5,
+        "prompt": "## New Items to Classify (each item below carries its OWN historical examples and frequency — classify each item using ONLY its own examples):\n\n- Item 0:\n\t- description: Starfruit Fresh large fillet skinless\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Starfruit Fresh large fillet skinless\",\"description\":\"Starfruit Fresh large fillet skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":1.0},{\"description\":\"Starfruit Fresh large fillets skinless\",\"description\":\"Starfruit Fresh large fillets skinless\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9929198453},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet skinoff\",\"description\":\"Starfruit Fresh large fillet skinoff\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9756758352},{\"description\":\"Starfruit Fresh large fillet\",\"description\":\"Starfruit Fresh large fillet\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9529122084}]}\n- Item 1:\n\t- description: Lychee Fresh\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'ROOFTOP RESTAURANT': '60.00%', 'KITCHEN': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.999998869},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089},{\"description\":\"Lychee Fresh\",\"description\":\"Lychee Fresh\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9999991089}]}\n- Item 2:\n\t- description: Coconut\n\t- vendor_name: Blue Harbour Fish & Seafood\n\t- line_tax_rate: 0.0\n\t- line_tax_amount: 0.0\n\t- frequency of dim_nominal in THIS item's similar items: {'Materials Purchased': '100.00%'}\n\t- frequency of dim_department in THIS item's similar items: {'KITCHEN': '60.00%', 'ROOFTOP RESTAURANT': '40.00%'}\n\t- frequency of dim_tax_code in THIS item's similar items: {'T0': '100.00%'}\n\t- similar historical items for THIS item:\n{\"schema\":{\"fields\":[{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"vendor_name\",\"type\":\"string\"},{\"name\":\"line_tax_rate\",\"type\":\"number\"},{\"name\":\"line_tax_amount\",\"type\":\"number\"},{\"name\":\"dim_nominal\",\"type\":\"string\"},{\"name\":\"dim_department\",\"type\":\"string\"},{\"name\":\"dim_tax_code\",\"type\":\"string\"},{\"name\":\"cosine_similarity\",\"type\":\"number\"}],\"pandas_version\":\"1.4.0\"},\"data\":[{\"description\":\"coconut\",\"description\":\"coconut\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.9155628906},{\"description\":\"coconut fresh loin imp\",\"description\":\"coconut fresh loin imp\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.6104894173},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"ROOFTOP RESTAURANT\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886},{\"description\":\"Fresh Fish t\",\"description\":\"Fresh Fish t\",\"vendor_name\":\"Blue Harbour Fish & Seafood\",\"line_tax_rate\":0.0,\"line_tax_amount\":0.0,\"dim_nominal\":\"Materials Purchased\",\"dim_department\":\"KITCHEN\",\"dim_tax_code\":\"T0\",\"cosine_similarity\":0.4943154886}]}",
+        "version": 1,
+        "batch_size": 3,
+        "query_text": "Coconut",
+        "instructions": "You are an AI assistant that classifies invoice line items based on similar historical examples.\n\n## Custom Classification Instructions\n## Captured Attributes (from data capture policies)\nThe following attributes are authoritative facts captured from this document. When an attribute code/value directly identifies one of a classification target's allowed values, that is a mandatory routing decision: you MUST choose that value even when line-description rules, instructions, or historical examples conflict. Never override a direct captured-attribute match. A document-level attribute applies to every line. Do not use captured attributes to introduce target values outside the allowed candidate set.\nDocument-level (apply to every line):\n- is_rooftop: True\n\n### dim_nominal\n**Values seen in examples**: Materials Purchased\n\n### dim_department\n**All possible values**: 1, 9\n**Value code + human-readable name**:\n- 1 (KITCHEN)\n- 9 (ROOFTOP RESTAURANT)\n\n### dim_tax_code\n**Values seen in examples**: T0\n\n## Task\nBased on the new items below and the similar historical examples above, classify each item.\nChoose from the possible values listed above for each target.\nYou MUST pick a value for every target on every item — never return null/None. When the examples are weak or contradictory, pick the closest reasonable option, lower the target's ``probability`` to reflect that uncertainty, and set the target's ``human_review_required`` to true so a person can confirm.\n\nReturn a JSON object with:\n- `classified_targets`: An object with `label`, `probability`, `reason`, and `human_review_required` for each target. Evaluate EACH target INDEPENDENTLY — a low-confidence pick on one target must NOT force `human_review_required=true` on a sibling target that is well-supported by the examples. Use human-readable dimension value names in every reason field when the prompt provides them (e.g. 'KITCHEN', 'Materials Purchased'). When a value code and name are provided together, cite the selected code together with its human-readable name (e.g. '0 (SERVICES & OVERHEADS @18%)'), never as a bare 'label 0'. Never expose UUIDs or raw database identifiers. If only a coded target value is available, do not invent a friendly name; cite the line descriptions and refer to the exact structured `label` code. The structured `label` field must still be the exact coded value from the allowed enum.\n- `confidence`: Your overall confidence in this classification (0.0 to 1.0)",
+        "target_enums": {
+          "dim_nominal": [
+            "Materials Purchased"
+          ],
+          "dim_tax_code": [
+            "T0"
+          ],
+          "dim_department": [
+            "1",
+            "9"
+          ]
+        },
+        "similar_items": [
+          {
+            "description": "coconut",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2025-12-30",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "fa11b625-32d1-4d3c-9671-196cf7fcb7ac",
+            "cosine_similarity": 0.9155628906408376
+          },
+          {
+            "description": "coconut fresh loin imp",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2025-12-22",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "0f710c27-6e76-4893-81d7-4340af5bda73",
+            "cosine_similarity": 0.6104894173230494
+          },
+          {
+            "description": "Fresh Fish t",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2025-12-30",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "fe326b21-5d04-42c9-8641-f22684f42f2f",
+            "cosine_similarity": 0.4943154885670097
+          },
+          {
+            "description": "Fresh Fish t",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2025-12-24",
+            "line_tax_rate": 0,
+            "dim_department": "ROOFTOP RESTAURANT",
+            "line_tax_amount": 0,
+            "document_item_id": "92a61d45-6749-46d1-abd9-ad74e68f2f8b",
+            "cosine_similarity": 0.4943154885670097
+          },
+          {
+            "description": "Fresh Fish t",
+            "dim_nominal": "Materials Purchased",
+            "vendor_name": "Blue Harbour Fish & Seafood",
+            "dim_tax_code": "T0",
+            "document_date": "2025-12-23",
+            "line_tax_rate": 0,
+            "dim_department": "KITCHEN",
+            "line_tax_amount": 0,
+            "document_item_id": "1b3ad19d-2d0c-4c82-9b73-98394ddd42c9",
+            "cosine_similarity": 0.4943154885670097
+          }
+        ],
+        "query_features": {
+          "description": "Coconut",
+          "vendor_name": "Blue Harbour Fish & Seafood",
+          "line_tax_rate": "0.0",
+          "line_tax_amount": 0
+        },
+        "retrieved_count": 5,
+        "batch_item_index": 2,
+        "reasoning_effort": null,
+        "frequency_by_target": {
+          "dim_nominal": {
+            "Materials Purchased": "100.00%"
+          },
+          "dim_tax_code": {
+            "T0": "100.00%"
+          },
+          "dim_department": {
+            "KITCHEN": "60.00%",
+            "ROOFTOP RESTAURANT": "40.00%"
+          }
+        }
+      },
+      "purchase_document_id": "d36cbdf5-f95c-5641-9229-994605f8a099",
+      "purchase_document_line_item": 2,
+      "classification_explanation_id": "a6fd9dde-2071-42c2-a7e1-978bcafc5c60"
+    }
+  ]
+}

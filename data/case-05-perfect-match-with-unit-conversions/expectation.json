@@ -1,0 +1,14 @@
+{
+  "test_case_name": "Perfect match with unit conversions",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "15 lines should be extracted adding up to 476.160.\nWe expect all items to match with price and quantity tolerance. Some items may need unit conversions to match. No errors and warnings related to price or quantity should be displayed. Ignore any info/warning related to item codes.",
+  "expected_activated_policies": [
+    "a415e63e-ed04-40fd-be32-4c0e06073e1e"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "PO Matching",
+    "Unit Conversion"
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "folder": "case-01-over-supply-within-tolerance",
+    "name": "Over-supply within tolerance",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  },
+  {
+    "folder": "case-02-rooftop-data-capture-and-classification",
+    "name": "Rooftop data capture and classification",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  },
+  {
+    "folder": "case-03-over-supply-out-of-threshold",
+    "name": "Over supply out of threshold",
+    "expected_status": "Needs Verification",
+    "final_status": "Needs Verification"
+  },
+  {
+    "folder": "case-04-test-policy-boundary-errors",
+    "name": "Test policy boundary errors",
+    "expected_status": "Needs Verification",
+    "final_status": "Needs Verification"
+  },
+  {
+    "folder": "case-05-perfect-match-with-unit-conversions",
+    "name": "Perfect match with unit conversions",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  },
+  {
+    "folder": "case-06-perfect-po-match",
+    "name": "Perfect PO match",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  },
+  {
+    "folder": "case-07-attribute-dimension-data-capture",
+    "name": "Attribute / dimension data capture",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  },
+  {
+    "folder": "case-08-bakery-catalog-matching-2",
+    "name": "Bakery catalog matching 2",
+    "expected_status": "Needs Verification",
+    "final_status": "Needs Verification"
+  },
+  {
+    "folder": "case-09-test-minor-price-differences",
+    "name": "Test minor price differences",
+    "expected_status": "Ready to Post",
+    "final_status": "Ready to Post"
+  }
+]

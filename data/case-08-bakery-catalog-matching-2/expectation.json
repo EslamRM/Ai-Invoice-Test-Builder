@@ -1,0 +1,13 @@
+{
+  "test_case_name": "Bakery catalog matching 2",
+  "description": null,
+  "expected_status": "Needs Verification",
+  "expectation_criteria": "All items should match against the catalog except \"BUN BLOOMER SMALL\" which should be flagged for price mismatch.\nInvoice total should be 6.370.",
+  "expected_activated_policies": [
+    "2a1669ac-f3d3-4057-a596-b06a51e7d4b3"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "Catalog Matching"
+  ]
+}

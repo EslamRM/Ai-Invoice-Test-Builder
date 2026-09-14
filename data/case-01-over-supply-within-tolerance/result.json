@@ -1,0 +1,520 @@
+{
+  "lines": [
+    {
+      "quantity": "10.0000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:13:02.020003+00:00",
+      "net_amount": "128.00",
+      "tax_amount": "0.00",
+      "unit_price": "12.8000",
+      "updated_at": "2026-07-30T17:13:02.020003+00:00",
+      "description": "BANANA PREPARATION X 2kg",
+      "document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "line_number": 0,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "128.00",
+      "item_metadata": {
+        "raw_unit": "KG",
+        "unit_of_measure": "PKT",
+        "raw_quantity_per_unit": 2
+      },
+      "dimension_data": null,
+      "document_item_id": "1e76994b-249e-410c-b81d-15166483ac66",
+      "match_confidence": "0.9500",
+      "matched_po_number": "B202607-31195",
+      "catalog_match_type": null,
+      "matched_po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": "10.0000",
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": "10.0000",
+      "unit_price_excluding_discount": null
+    },
+    {
+      "quantity": "23.2900",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:13:02.020003+00:00",
+      "net_amount": "136.95",
+      "tax_amount": "0.00",
+      "unit_price": "5.8802",
+      "updated_at": "2026-07-30T17:13:02.020003+00:00",
+      "description": "PINEAPPLE Whole",
+      "document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "line_number": 1,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "136.95",
+      "item_metadata": {
+        "unit_of_measure": "KG"
+      },
+      "dimension_data": null,
+      "document_item_id": "180a7797-e7b5-43f6-a27f-7d6618f76f08",
+      "match_confidence": "0.9500",
+      "matched_po_number": "B202607-31195",
+      "catalog_match_type": null,
+      "matched_po_line_id": "fe1bd7e2-3ad3-43e2-b174-eff8b62f4409",
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": "20.0000",
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": "23.2900",
+      "unit_price_excluding_discount": null
+    }
+  ],
+  "header": {
+    "status": "Ready to Post",
+    "file_id": "ca41becf-eeb0-49de-a1b0-763c082aa943",
+    "post_as": null,
+    "category": null,
+    "due_date": "2026-10-25",
+    "party_id": "efc82a0a-124b-4024-99f2-7f3686ef138c",
+    "synced_at": null,
+    "created_at": "2026-07-30T17:13:01.901600+00:00",
+    "net_amount": "264.95",
+    "party_name": "Greenfield Foods Ltd",
+    "tax_amount": "0.00",
+    "updated_at": "2026-07-30T17:13:12.593477+00:00",
+    "external_id": null,
+    "total_amount": "264.95",
+    "currency_code": "EUR",
+    "document_date": "2026-07-27",
+    "document_type": "PURCHASE_INVOICE",
+    "review_reason": null,
+    "pending_review": false,
+    "discount_amount": "0.00",
+    "document_number": "51027386",
+    "organization_id": "ad4a7727-18ce-43be-bf1f-3930b4a0ac03",
+    "reference_number": null,
+    "document_metadata": null,
+    "organization_name": "HARBOUR HOTELS OPERATIONS PLC",
+    "assigned_dimensions": {
+      "location": [
+        "BAYSIDE"
+      ]
+    },
+    "purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+    "core_purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+    "post_batch_transaction_id": null
+  },
+  "failures": [],
+  "warnings": [],
+  "validation": [
+    {
+      "severity": "WARN",
+      "policy_id": "a415e63e-ed04-40fd-be32-4c0e06073e1e",
+      "document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "line_number": null,
+      "policy_name": "PO Matching Policy",
+      "policy_type": "po_matching",
+      "matched_po_id": null,
+      "execution_type": "PROBABILISTIC",
+      "outcome_status": "WITHIN_TOLERANCE",
+      "amount_variance": "0.0000",
+      "within_tolerance": true,
+      "quantity_variance": null,
+      "tolerance_outcome": {
+        "status": "success",
+        "matches": [
+          {
+            "match_id": "match_0_0",
+            "po_number": "B202607-31195",
+            "confidence": 0.95,
+            "po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+            "match_method": "llm_agent",
+            "match_signals": null,
+            "po_unit_price": 12.8,
+            "warning_reason": null,
+            "price_validated": true,
+            "requires_review": false,
+            "price_difference": 0,
+            "invoice_line_index": 0,
+            "po_unit_of_measure": "Cont 2kg",
+            "quantity_to_deduct": 10,
+            "price_tolerance_abs": 0.01,
+            "validation_warnings": null,
+            "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_B+RULE_F",
+            "po_remaining_quantity": 10,
+            "adjusted_invoice_price": 12.8,
+            "price_within_tolerance": true,
+            "unit_conversion_factor": 1,
+            "unit_conversion_applied_rules": [
+              "RULE_B",
+              "RULE_F"
+            ]
+          },
+          {
+            "match_id": "match_1_1",
+            "po_number": "B202607-31195",
+            "confidence": 0.95,
+            "po_line_id": "fe1bd7e2-3ad3-43e2-b174-eff8b62f4409",
+            "match_method": "llm_agent",
+            "match_signals": null,
+            "po_unit_price": 5.88,
+            "warning_reason": null,
+            "price_validated": true,
+            "requires_review": false,
+            "price_difference": 0.0002,
+            "invoice_line_index": 1,
+            "po_unit_of_measure": "Kilogram",
+            "quantity_to_deduct": 23.29,
+            "price_tolerance_abs": 0.01,
+            "validation_warnings": null,
+            "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+            "po_remaining_quantity": 20,
+            "adjusted_invoice_price": 5.8802,
+            "price_within_tolerance": true,
+            "unit_conversion_factor": 1,
+            "unit_conversion_applied_rules": [
+              "RULE_A",
+              "RULE_B"
+            ]
+          }
+        ],
+        "matching_audit": {
+          "strategy": "candidates",
+          "llm_lines": 2,
+          "match_rate": 1,
+          "matched_at": "2026-07-30T17:13:01.878664+00:00",
+          "match_method": "llm_agent",
+          "primary_po_id": "252bb0d9-a91d-48c4-b6fe-621c69a469e2",
+          "unmatched_lines": 0,
+          "primary_po_number": "B202607-31195"
+        },
+        "review_reasons": [],
+        "result_metadata": {
+          "llm_calls": 2,
+          "match_rate": 1,
+          "lines_total": 2,
+          "match_method": "llm_agent",
+          "lines_matched": 2,
+          "primary_po_id": "252bb0d9-a91d-48c4-b6fe-621c69a469e2",
+          "strategy_used": "candidates",
+          "scoring_method": "llm_semantic",
+          "matching_version": "2.6",
+          "primary_po_number": "B202607-31195",
+          "processing_time_ms": 17582,
+          "candidate_pos_evaluated": 1
+        },
+        "quantity_overages": [
+          {
+            "tier": "ok",
+            "want": 10,
+            "reason": null,
+            "quantity": 10,
+            "available": 10,
+            "po_number": "B202607-31195",
+            "po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+            "consumed_by": null,
+            "line_number": 1,
+            "overage_net": 0,
+            "overage_pct": 0,
+            "block_reason": null
+          },
+          {
+            "tier": "review",
+            "want": 23.29,
+            "reason": "PO B202607-31195 line 2: invoice consumes 23.29 vs 20 remaining of 20 — overage of 16.4% (€19.35) is within tolerance (inside the acceptance band).",
+            "quantity": 20,
+            "available": 20,
+            "po_number": "B202607-31195",
+            "po_line_id": "fe1bd7e2-3ad3-43e2-b174-eff8b62f4409",
+            "consumed_by": null,
+            "line_number": 2,
+            "overage_net": 19.3452,
+            "overage_pct": 0.1645,
+            "block_reason": null
+          }
+        ]
+      },
+      "matched_po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+      "parent_policy_type": "DOCUMENT_VALIDATION"
+    }
+  ],
+  "po_matching": {
+    "review_reasons": [],
+    "validation_rows": [
+      {
+        "severity": "WARN",
+        "policy_id": "a415e63e-ed04-40fd-be32-4c0e06073e1e",
+        "document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+        "line_number": null,
+        "policy_name": "PO Matching Policy",
+        "policy_type": "po_matching",
+        "matched_po_id": null,
+        "execution_type": "PROBABILISTIC",
+        "outcome_status": "WITHIN_TOLERANCE",
+        "amount_variance": "0.0000",
+        "within_tolerance": true,
+        "quantity_variance": null,
+        "tolerance_outcome": {
+          "status": "success",
+          "matches": [
+            {
+              "match_id": "match_0_0",
+              "po_number": "B202607-31195",
+              "confidence": 0.95,
+              "po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+              "match_method": "llm_agent",
+              "match_signals": null,
+              "po_unit_price": 12.8,
+              "warning_reason": null,
+              "price_validated": true,
+              "requires_review": false,
+              "price_difference": 0,
+              "invoice_line_index": 0,
+              "po_unit_of_measure": "Cont 2kg",
+              "quantity_to_deduct": 10,
+              "price_tolerance_abs": 0.01,
+              "validation_warnings": null,
+              "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_B+RULE_F",
+              "po_remaining_quantity": 10,
+              "adjusted_invoice_price": 12.8,
+              "price_within_tolerance": true,
+              "unit_conversion_factor": 1,
+              "unit_conversion_applied_rules": [
+                "RULE_B",
+                "RULE_F"
+              ]
+            },
+            {
+              "match_id": "match_1_1",
+              "po_number": "B202607-31195",
+              "confidence": 0.95,
+              "po_line_id": "fe1bd7e2-3ad3-43e2-b174-eff8b62f4409",
+              "match_method": "llm_agent",
+              "match_signals": null,
+              "po_unit_price": 5.88,
+              "warning_reason": null,
+              "price_validated": true,
+              "requires_review": false,
+              "price_difference": 0.0002,
+              "invoice_line_index": 1,
+              "po_unit_of_measure": "Kilogram",
+              "quantity_to_deduct": 23.29,
+              "price_tolerance_abs": 0.01,
+              "validation_warnings": null,
+              "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+              "po_remaining_quantity": 20,
+              "adjusted_invoice_price": 5.8802,
+              "price_within_tolerance": true,
+              "unit_conversion_factor": 1,
+              "unit_conversion_applied_rules": [
+                "RULE_A",
+                "RULE_B"
+              ]
+            }
+          ],
+          "matching_audit": {
+            "strategy": "candidates",
+            "llm_lines": 2,
+            "match_rate": 1,
+            "matched_at": "2026-07-30T17:13:01.878664+00:00",
+            "match_method": "llm_agent",
+            "primary_po_id": "252bb0d9-a91d-48c4-b6fe-621c69a469e2",
+            "unmatched_lines": 0,
+            "primary_po_number": "B202607-31195"
+          },
+          "review_reasons": [],
+          "result_metadata": {
+            "llm_calls": 2,
+            "match_rate": 1,
+            "lines_total": 2,
+            "match_method": "llm_agent",
+            "lines_matched": 2,
+            "primary_po_id": "252bb0d9-a91d-48c4-b6fe-621c69a469e2",
+            "strategy_used": "candidates",
+            "scoring_method": "llm_semantic",
+            "matching_version": "2.6",
+            "primary_po_number": "B202607-31195",
+            "processing_time_ms": 17582,
+            "candidate_pos_evaluated": 1
+          },
+          "quantity_overages": [
+            {
+              "tier": "ok",
+              "want": 10,
+              "reason": null,
+              "quantity": 10,
+              "available": 10,
+              "po_number": "B202607-31195",
+              "po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+              "consumed_by": null,
+              "line_number": 1,
+              "overage_net": 0,
+              "overage_pct": 0,
+              "block_reason": null
+            },
+            {
+              "tier": "review",
+              "want": 23.29,
+              "reason": "PO B202607-31195 line 2: invoice consumes 23.29 vs 20 remaining of 20 — overage of 16.4% (€19.35) is within tolerance (inside the acceptance band).",
+              "quantity": 20,
+              "available": 20,
+              "po_number": "B202607-31195",
+              "po_line_id": "fe1bd7e2-3ad3-43e2-b174-eff8b62f4409",
+              "consumed_by": null,
+              "line_number": 2,
+              "overage_net": 19.3452,
+              "overage_pct": 0.1645,
+              "block_reason": null
+            }
+          ]
+        },
+        "matched_po_line_id": "96d35f2b-2113-4ce0-844f-3132f228bc7f",
+        "parent_policy_type": "DOCUMENT_VALIDATION"
+      }
+    ]
+  },
+  "final_status": "Ready to Post",
+  "review_queue": null,
+  "classification": [
+    {
+      "date": "2026-07-30T17:13:03.244042+00:00",
+      "decision": "po_derived",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:13:03.244042+00:00",
+      "updated_at": "2026-07-30T17:13:03.244042+00:00",
+      "dimension_id": "eef4989b-b4b3-4bfd-a85b-143628ee34be",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Cost Center",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Derived from matched PO line",
+      "rule_conditions": null,
+      "classification_id": "5b71906e-df58-4536-9dee-e46fbf1f483f",
+      "dimension_value_id": "c98857fe-ddfa-4b7e-9262-02269f2f3f6d",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAY Gastro Pub Kitchen F&B",
+      "purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:13:03.244042+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:13:03.244042+00:00",
+      "updated_at": "2026-07-30T17:13:03.244042+00:00",
+      "dimension_id": "00af3a37-b2ca-4933-bc92-a7a23e73a1c7",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Location",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "7ea7e752-b7f6-4535-8281-b78fd2dc0f1d",
+      "dimension_value_id": "98e53d70-16b4-4222-803a-df34c4629611",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAYSIDE",
+      "purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:13:03.244042+00:00",
+      "decision": "po_derived",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:13:03.244042+00:00",
+      "updated_at": "2026-07-30T17:13:03.244042+00:00",
+      "dimension_id": "eef4989b-b4b3-4bfd-a85b-143628ee34be",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Cost Center",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Derived from matched PO line",
+      "rule_conditions": null,
+      "classification_id": "0f610b20-8898-42a8-9c03-66bbe9179e75",
+      "dimension_value_id": "c98857fe-ddfa-4b7e-9262-02269f2f3f6d",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAY Gastro Pub Kitchen F&B",
+      "purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    },
+    {
+      "date": "2026-07-30T17:13:03.244042+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:13:03.244042+00:00",
+      "updated_at": "2026-07-30T17:13:03.244042+00:00",
+      "dimension_id": "00af3a37-b2ca-4933-bc92-a7a23e73a1c7",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Location",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "f7e4f4b8-90d4-4e5f-8bf1-6a0a6de0def8",
+      "dimension_value_id": "98e53d70-16b4-4222-803a-df34c4629611",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAYSIDE",
+      "purchase_document_id": "0a00aa42-b3f5-581b-b792-3e0b30c58ca2",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 1
+    }
+  ],
+  "pending_review": false,
+  "processing_job": {
+    "job_id": "69900d90-ec2c-4c59-a510-98dc47055cf0",
+    "status": "completed",
+    "last_error": null
+  },
+  "catalog_matching": {
+    "0": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    },
+    "1": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    }
+  },
+  "policy_activation": {
+    "union": [
+      "a415e63e-ed04-40fd-be32-4c0e06073e1e",
+      "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+    ],
+    "sources": {
+      "applicable": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "won_targets": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "legacy_review": [],
+      "manual_promoted": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "validation_lines": {},
+      "document_validation": [
+        "a415e63e-ed04-40fd-be32-4c0e06073e1e"
+      ],
+      "classification_lines": {}
+    }
+  },
+  "classification_explanations": []
+}

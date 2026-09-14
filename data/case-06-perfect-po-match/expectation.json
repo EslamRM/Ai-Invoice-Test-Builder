@@ -1,0 +1,13 @@
+{
+  "test_case_name": "Perfect PO match",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "This invoice should match perfectly",
+  "expected_activated_policies": [
+    "a415e63e-ed04-40fd-be32-4c0e06073e1e"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "PO Matching"
+  ]
+}

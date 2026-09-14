@@ -1,0 +1,526 @@
+{
+  "lines": [
+    {
+      "quantity": "60.0000",
+      "tax_rate": "0.0000",
+      "created_at": "2026-07-30T17:34:54.028629+00:00",
+      "net_amount": "282.00",
+      "tax_amount": "0.00",
+      "unit_price": "4.7000",
+      "updated_at": "2026-07-30T17:34:54.028629+00:00",
+      "description": "KIWI M BOXES X 30 3MT 1005 KE",
+      "document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+      "line_number": 0,
+      "item_code_id": null,
+      "item_hash_id": null,
+      "total_amount": "282.00",
+      "item_metadata": {
+        "raw_unit": "EA",
+        "unit_of_measure": "EA",
+        "service_period_end": "2026-07-25",
+        "raw_quantity_per_unit": 30
+      },
+      "dimension_data": null,
+      "document_item_id": "3d250abc-df3f-4cbd-bf15-057497f6970a",
+      "match_confidence": "0.9500",
+      "matched_po_number": "B202607-29062",
+      "catalog_match_type": null,
+      "matched_po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+      "catalog_link_source": null,
+      "discount_percentage": null,
+      "governing_policy_id": null,
+      "matched_po_quantity": "10.0000",
+      "matched_po_snapshot": null,
+      "tax_amount_percentage": null,
+      "backfill_review_required": false,
+      "governing_policy_version": null,
+      "matched_po_quantity_to_deduct": "60.0000",
+      "unit_price_excluding_discount": null
+    }
+  ],
+  "header": {
+    "status": "Needs Verification",
+    "file_id": "060f454b-9346-4069-b8c6-befb093c77b5",
+    "post_as": null,
+    "category": null,
+    "due_date": null,
+    "party_id": "47aed601-e5a1-4a70-9cca-ff71eee6327c",
+    "synced_at": null,
+    "created_at": "2026-07-30T17:34:53.905315+00:00",
+    "net_amount": "282.00",
+    "party_name": "Sunrise Farms Ltd (10000001)",
+    "tax_amount": "0.00",
+    "updated_at": "2026-07-30T17:34:55.585116+00:00",
+    "external_id": null,
+    "total_amount": "282.00",
+    "currency_code": "EUR",
+    "document_date": "2026-07-06",
+    "document_type": "PURCHASE_INVOICE",
+    "review_reason": "PO mismatch: line 1 needs 60, but only 10 remain on PO B202607-29062; overage exceeds the acceptance band.",
+    "pending_review": true,
+    "discount_amount": "0.00",
+    "document_number": "INV91437250",
+    "organization_id": "ad4a7727-18ce-43be-bf1f-3930b4a0ac03",
+    "reference_number": "B202607-28058",
+    "document_metadata": null,
+    "organization_name": "HARBOUR HOTELS OPERATIONS PLC",
+    "assigned_dimensions": {
+      "location": [
+        "BAYSIDE"
+      ]
+    },
+    "purchase_document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+    "core_purchase_document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+    "post_batch_transaction_id": null
+  },
+  "failures": [],
+  "warnings": [
+    "PO mismatch: line 1 needs 60, but only 10 remain on PO B202607-29062; overage exceeds the acceptance band."
+  ],
+  "validation": [
+    {
+      "severity": "BLOCK",
+      "policy_id": "5f03832f-b0c2-4b9b-b51d-5cf8d1c18ca2",
+      "document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+      "line_number": null,
+      "policy_name": "PO Matching Policy V2 - Price Variance",
+      "policy_type": "po_matching",
+      "matched_po_id": null,
+      "execution_type": "PROBABILISTIC",
+      "outcome_status": "WITHIN_TOLERANCE",
+      "amount_variance": "0.0000",
+      "within_tolerance": true,
+      "quantity_variance": null,
+      "tolerance_outcome": {
+        "status": "success",
+        "matches": [
+          {
+            "match_id": "match_0_0",
+            "po_number": "B202607-29062",
+            "confidence": 0.95,
+            "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+            "match_method": "llm_agent",
+            "match_signals": [
+              "Item code mismatch: invoice '1S' vs PO '3869'"
+            ],
+            "po_unit_price": 4.7,
+            "warning_reason": null,
+            "price_validated": true,
+            "requires_review": false,
+            "price_difference": 0,
+            "invoice_line_index": 0,
+            "po_unit_of_measure": "Each",
+            "quantity_to_deduct": 60,
+            "price_tolerance_abs": 0.01,
+            "validation_warnings": null,
+            "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+            "po_remaining_quantity": 10,
+            "adjusted_invoice_price": 4.7,
+            "price_within_tolerance": true,
+            "unit_conversion_factor": 1,
+            "unit_conversion_applied_rules": [
+              "RULE_A",
+              "RULE_B"
+            ]
+          }
+        ],
+        "matching_audit": {
+          "strategy": "candidates",
+          "llm_lines": 1,
+          "match_rate": 1,
+          "matched_at": "2026-07-30T17:34:52.764135+00:00",
+          "match_method": "llm_agent",
+          "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+          "unmatched_lines": 0,
+          "primary_po_number": "B202607-29062"
+        },
+        "review_reasons": [],
+        "result_metadata": {
+          "llm_calls": 2,
+          "match_rate": 1,
+          "lines_total": 1,
+          "match_method": "llm_agent",
+          "lines_matched": 1,
+          "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+          "strategy_used": "candidates",
+          "scoring_method": "llm_semantic",
+          "matching_version": "2.6",
+          "primary_po_number": "B202607-29062",
+          "processing_time_ms": 16768,
+          "candidate_pos_evaluated": 1
+        }
+      },
+      "matched_po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+      "parent_policy_type": "DOCUMENT_VALIDATION"
+    },
+    {
+      "severity": "WARN",
+      "policy_id": "8f752154-c5fb-4f43-9356-06782f75097f",
+      "document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+      "line_number": null,
+      "policy_name": "PO Matching Policy V2 - Overage",
+      "policy_type": "po_matching",
+      "matched_po_id": null,
+      "execution_type": "PROBABILISTIC",
+      "outcome_status": "OUT_OF_TOLERANCE",
+      "amount_variance": "0.0000",
+      "within_tolerance": false,
+      "quantity_variance": "50.0000",
+      "tolerance_outcome": {
+        "status": "success",
+        "matches": [
+          {
+            "match_id": "match_0_0",
+            "po_number": "B202607-29062",
+            "confidence": 0.95,
+            "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+            "match_method": "llm_agent",
+            "match_signals": [
+              "Item code mismatch: invoice '1S' vs PO '3869'"
+            ],
+            "po_unit_price": 4.7,
+            "warning_reason": null,
+            "price_validated": true,
+            "requires_review": true,
+            "price_difference": 0,
+            "invoice_line_index": 0,
+            "po_unit_of_measure": "Each",
+            "quantity_to_deduct": 60,
+            "price_tolerance_abs": 0.01,
+            "validation_warnings": [
+              "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line."
+            ],
+            "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+            "po_remaining_quantity": 10,
+            "adjusted_invoice_price": 4.7,
+            "price_within_tolerance": true,
+            "unit_conversion_factor": 1,
+            "quantity_overage_amount": 50,
+            "unit_conversion_applied_rules": [
+              "RULE_A",
+              "RULE_B"
+            ]
+          }
+        ],
+        "matching_audit": {
+          "strategy": "candidates",
+          "llm_lines": 1,
+          "match_rate": 1,
+          "matched_at": "2026-07-30T17:34:52.764135+00:00",
+          "match_method": "llm_agent",
+          "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+          "unmatched_lines": 0,
+          "primary_po_number": "B202607-29062"
+        },
+        "review_reasons": [
+          "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line."
+        ],
+        "result_metadata": {
+          "llm_calls": 2,
+          "match_rate": 1,
+          "lines_total": 1,
+          "match_method": "llm_agent",
+          "lines_matched": 1,
+          "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+          "strategy_used": "candidates",
+          "scoring_method": "llm_semantic",
+          "matching_version": "2.6",
+          "primary_po_number": "B202607-29062",
+          "processing_time_ms": 16768,
+          "candidate_pos_evaluated": 1
+        },
+        "quantity_overages": [
+          {
+            "tier": "block",
+            "want": 60,
+            "reason": "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line.",
+            "quantity": 10,
+            "available": 10,
+            "po_number": "B202607-29062",
+            "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+            "consumed_by": null,
+            "line_number": 1,
+            "overage_net": 235,
+            "overage_pct": 5,
+            "block_reason": "overage_beyond_band"
+          }
+        ]
+      },
+      "matched_po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+      "parent_policy_type": "DOCUMENT_VALIDATION"
+    }
+  ],
+  "po_matching": {
+    "review_reasons": [
+      "PO mismatch: line 1 needs 60, but only 10 remain on PO B202607-29062; overage exceeds the acceptance band."
+    ],
+    "validation_rows": [
+      {
+        "severity": "BLOCK",
+        "policy_id": "5f03832f-b0c2-4b9b-b51d-5cf8d1c18ca2",
+        "document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+        "line_number": null,
+        "policy_name": "PO Matching Policy V2 - Price Variance",
+        "policy_type": "po_matching",
+        "matched_po_id": null,
+        "execution_type": "PROBABILISTIC",
+        "outcome_status": "WITHIN_TOLERANCE",
+        "amount_variance": "0.0000",
+        "within_tolerance": true,
+        "quantity_variance": null,
+        "tolerance_outcome": {
+          "status": "success",
+          "matches": [
+            {
+              "match_id": "match_0_0",
+              "po_number": "B202607-29062",
+              "confidence": 0.95,
+              "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+              "match_method": "llm_agent",
+              "match_signals": [
+                "Item code mismatch: invoice '1S' vs PO '3869'"
+              ],
+              "po_unit_price": 4.7,
+              "warning_reason": null,
+              "price_validated": true,
+              "requires_review": false,
+              "price_difference": 0,
+              "invoice_line_index": 0,
+              "po_unit_of_measure": "Each",
+              "quantity_to_deduct": 60,
+              "price_tolerance_abs": 0.01,
+              "validation_warnings": null,
+              "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+              "po_remaining_quantity": 10,
+              "adjusted_invoice_price": 4.7,
+              "price_within_tolerance": true,
+              "unit_conversion_factor": 1,
+              "unit_conversion_applied_rules": [
+                "RULE_A",
+                "RULE_B"
+              ]
+            }
+          ],
+          "matching_audit": {
+            "strategy": "candidates",
+            "llm_lines": 1,
+            "match_rate": 1,
+            "matched_at": "2026-07-30T17:34:52.764135+00:00",
+            "match_method": "llm_agent",
+            "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+            "unmatched_lines": 0,
+            "primary_po_number": "B202607-29062"
+          },
+          "review_reasons": [],
+          "result_metadata": {
+            "llm_calls": 2,
+            "match_rate": 1,
+            "lines_total": 1,
+            "match_method": "llm_agent",
+            "lines_matched": 1,
+            "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+            "strategy_used": "candidates",
+            "scoring_method": "llm_semantic",
+            "matching_version": "2.6",
+            "primary_po_number": "B202607-29062",
+            "processing_time_ms": 16768,
+            "candidate_pos_evaluated": 1
+          }
+        },
+        "matched_po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+        "parent_policy_type": "DOCUMENT_VALIDATION"
+      },
+      {
+        "severity": "WARN",
+        "policy_id": "8f752154-c5fb-4f43-9356-06782f75097f",
+        "document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+        "line_number": null,
+        "policy_name": "PO Matching Policy V2 - Overage",
+        "policy_type": "po_matching",
+        "matched_po_id": null,
+        "execution_type": "PROBABILISTIC",
+        "outcome_status": "OUT_OF_TOLERANCE",
+        "amount_variance": "0.0000",
+        "within_tolerance": false,
+        "quantity_variance": "50.0000",
+        "tolerance_outcome": {
+          "status": "success",
+          "matches": [
+            {
+              "match_id": "match_0_0",
+              "po_number": "B202607-29062",
+              "confidence": 0.95,
+              "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+              "match_method": "llm_agent",
+              "match_signals": [
+                "Item code mismatch: invoice '1S' vs PO '3869'"
+              ],
+              "po_unit_price": 4.7,
+              "warning_reason": null,
+              "price_validated": true,
+              "requires_review": true,
+              "price_difference": 0,
+              "invoice_line_index": 0,
+              "po_unit_of_measure": "Each",
+              "quantity_to_deduct": 60,
+              "price_tolerance_abs": 0.01,
+              "validation_warnings": [
+                "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line."
+              ],
+              "conversion_reasoning": "Deterministic: factor=1.0000 via RULE_A+RULE_B",
+              "po_remaining_quantity": 10,
+              "adjusted_invoice_price": 4.7,
+              "price_within_tolerance": true,
+              "unit_conversion_factor": 1,
+              "quantity_overage_amount": 50,
+              "unit_conversion_applied_rules": [
+                "RULE_A",
+                "RULE_B"
+              ]
+            }
+          ],
+          "matching_audit": {
+            "strategy": "candidates",
+            "llm_lines": 1,
+            "match_rate": 1,
+            "matched_at": "2026-07-30T17:34:52.764135+00:00",
+            "match_method": "llm_agent",
+            "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+            "unmatched_lines": 0,
+            "primary_po_number": "B202607-29062"
+          },
+          "review_reasons": [
+            "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line."
+          ],
+          "result_metadata": {
+            "llm_calls": 2,
+            "match_rate": 1,
+            "lines_total": 1,
+            "match_method": "llm_agent",
+            "lines_matched": 1,
+            "primary_po_id": "ee1df663-6768-460d-9f75-7cbf25bfa3e5",
+            "strategy_used": "candidates",
+            "scoring_method": "llm_semantic",
+            "matching_version": "2.6",
+            "primary_po_number": "B202607-29062",
+            "processing_time_ms": 16768,
+            "candidate_pos_evaluated": 1
+          },
+          "quantity_overages": [
+            {
+              "tier": "block",
+              "want": 60,
+              "reason": "PO B202607-29062 line 1: this invoice needs 60, but only 10 of 10 remaining is available (0 already consumed by other invoices), and the overage of 500.0% (€235.00) exceeds the acceptance band. Reduce the matched quantity or unmatch this line.",
+              "quantity": 10,
+              "available": 10,
+              "po_number": "B202607-29062",
+              "po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+              "consumed_by": null,
+              "line_number": 1,
+              "overage_net": 235,
+              "overage_pct": 5,
+              "block_reason": "overage_beyond_band"
+            }
+          ]
+        },
+        "matched_po_line_id": "4fdfee88-8ea9-44bd-aca8-97e825750a38",
+        "parent_policy_type": "DOCUMENT_VALIDATION"
+      }
+    ]
+  },
+  "final_status": "Needs Verification",
+  "review_queue": {
+    "status": "Pending",
+    "review_reason": "PO mismatch: line 1 needs 60, but only 10 remain on PO B202607-29062; overage exceeds the acceptance band.",
+    "purchase_document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895"
+  },
+  "classification": [
+    {
+      "date": "2026-07-30T17:34:55.476745+00:00",
+      "decision": "fixed",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:34:55.476745+00:00",
+      "updated_at": "2026-07-30T17:34:55.476745+00:00",
+      "dimension_id": "00af3a37-b2ca-4933-bc92-a7a23e73a1c7",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Location",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Pre-assigned at upload",
+      "rule_conditions": null,
+      "classification_id": "a138c8ad-eb6c-43da-9c45-990c6f091585",
+      "dimension_value_id": "98e53d70-16b4-4222-803a-df34c4629611",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAYSIDE",
+      "purchase_document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    },
+    {
+      "date": "2026-07-30T17:34:55.476745+00:00",
+      "decision": "po_derived",
+      "policy_id": null,
+      "created_at": "2026-07-30T17:34:55.476745+00:00",
+      "updated_at": "2026-07-30T17:34:55.476745+00:00",
+      "dimension_id": "eef4989b-b4b3-4bfd-a85b-143628ee34be",
+      "rule_support": null,
+      "superseded_at": null,
+      "dimension_name": "Cost Center",
+      "execution_type": null,
+      "source_rule_id": null,
+      "decision_reason": "Derived from matched PO line",
+      "rule_conditions": null,
+      "classification_id": "78b931a3-00f2-4255-a304-5b1c24d4f8cb",
+      "dimension_value_id": "d9ac41e6-6aa5-42ee-b12d-aeb12cf75115",
+      "dimension_confidence": 1,
+      "dimension_value_name": "BAY Marina Kitchen F&B",
+      "purchase_document_id": "9fc4b65e-7e2b-56d9-857c-cf898abf0895",
+      "retrieved_context_size": null,
+      "dimension_consensus_ratio": 1,
+      "purchase_document_line_item": 0
+    }
+  ],
+  "pending_review": true,
+  "processing_job": {
+    "job_id": "fca9a3a0-a9aa-4cd4-a0c9-7345dcac7293",
+    "status": "completed",
+    "last_error": null
+  },
+  "catalog_matching": {
+    "0": {
+      "catalog_id": null,
+      "item_hash_id": null,
+      "catalog_node_id": null,
+      "catalog_node_name": null,
+      "catalog_node_path": null
+    }
+  },
+  "policy_activation": {
+    "union": [
+      "5f03832f-b0c2-4b9b-b51d-5cf8d1c18ca2",
+      "8f752154-c5fb-4f43-9356-06782f75097f",
+      "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+    ],
+    "sources": {
+      "applicable": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "won_targets": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "legacy_review": [],
+      "manual_promoted": [
+        "31741a50-2559-4ed3-b7c7-91b9ae42dbea"
+      ],
+      "validation_lines": {},
+      "document_validation": [
+        "5f03832f-b0c2-4b9b-b51d-5cf8d1c18ca2",
+        "8f752154-c5fb-4f43-9356-06782f75097f"
+      ],
+      "classification_lines": {}
+    }
+  },
+  "classification_explanations": []
+}

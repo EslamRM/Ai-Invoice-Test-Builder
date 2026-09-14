@@ -1,0 +1,15 @@
+{
+  "test_case_name": "Rooftop data capture and classification",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "Document should be classified as Rooftop Restaurant department because is_rooftop (Yes) is captured from the invoice.",
+  "expected_activated_policies": [
+    "6e4bf81a-65b6-4a96-a1e7-1815e95191e2",
+    "aa594718-ff52-4df1-a01a-28538d754983"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "Classification",
+    "Data Capture"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "test_case_name": "Attribute / dimension data capture",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "For invoice INV-8841, we expect the system to:\n\nCapture IBAN Number as MT40BANK22013000000012345678901.\nCapture Voyage Number as V7X0042.\nAssign the Voyage Code dimension with the value V7X0042 to every invoice line, with 100% confidence and labelled as “pre-assigned”.\n\nThe test should fail if any invoice line:\n\nIs missing the Voyage Code dimension.\nHas a Voyage Code other than V7X0042.\nHas a Voyage Code confidence below 100%.\nDoes not have the Voyage Code labelled as “pre-assigned”.",
+  "expected_activated_policies": [
+    "e9cfb25b-6eae-42e0-a46c-b71e762ce926",
+    "1fbd318c-2fda-49ad-9c23-a4b3fb9b966b"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "Data Capture"
+  ]
+}

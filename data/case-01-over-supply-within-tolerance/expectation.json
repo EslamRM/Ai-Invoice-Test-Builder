@@ -1,0 +1,11 @@
+{
+  "test_case_name": "Over-supply within tolerance",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "Both invoice lines should match the corresponding PO lines:\n\nBANANA PREPARATION X 2... → BANANA Frozen 80/20% Hotels\nPINEAPPLE Whole → Pineapple Baby Whole Frozen\n\nExpected validation:\n\nLine 1: Match 10 PKT to 10 Cont 2kg at €12.800 per unit. The invoice and PO net amounts are both €128.000. The line should remain matched with no price or quantity warning.\nLine 2: Match 23.29 KG to Pineapple Baby Whole Frozen at €5.880 per KG. The PO remaining quantity is 20 KG, resulting in an over-supply of 3.29 KG, equivalent to 16.4% or approximately €19.35.\nThe line 2 quantity over-supply is within the configured acceptance tolerance. Keep the line matched and return a non-blocking warning.\nDo not flag a price mismatch for line 2. The invoice net amount of €136.950 and the calculated PO amount of €136.945 differ only because of rounding.\nQuantity over-supply must not cause line 2 to become unmatched.\n\nThe expected final result is:\n\nPurchase order B202607-31195 is selected.\n2 out of 2 invoice lines are matched.",
+  "expected_activated_policies": null,
+  "policy_match_mode": null,
+  "tags": [
+    "PO Matching"
+  ]
+}

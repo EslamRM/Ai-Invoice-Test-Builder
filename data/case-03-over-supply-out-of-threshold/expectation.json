@@ -1,0 +1,11 @@
+{
+  "test_case_name": "Over supply out of threshold",
+  "description": null,
+  "expected_status": "Needs Verification",
+  "expectation_criteria": "Invoice should be flagged for review due to over supply exceeding allowed threshold.",
+  "expected_activated_policies": null,
+  "policy_match_mode": null,
+  "tags": [
+    "PO Matching"
+  ]
+}

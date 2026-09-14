@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f5f2" />
+  <title>Invoice Test Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <span class="mark">IT</span>
+        <div>
+          <h1>Invoice Test Builder</h1>
+          <div class="subtitle">AI-assisted, deterministic replay</div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span class="workflow-note">Review → run → save</span>
+        <span class="mode-pill" id="mode-pill"><span class="dot"></span><span id="mode-pill-text">checking…</span></span>
+      </div>
+    </header>
+
+    <nav class="sidebar" id="sidebar" aria-label="Provided invoice cases">
+      <div class="sidebar-heading-row">
+        <div class="sidebar-heading">Provided cases</div>
+        <span class="count-pill" id="case-count">9</span>
+      </div>
+      <div id="case-list"></div>
+    </nav>
+
+    <main class="main" id="main">
+      <div class="empty-state">
+        <div class="empty-icon">▣</div>
+        <div class="big">Select a case to begin</div>
+        <div>Choose one of the provided invoice outputs to generate and verify a test.</div>
+      </div>
+    </main>
+
+    <aside class="saved" id="saved" aria-label="Saved tests">
+      <div class="saved-heading-row">
+        <div class="saved-heading">Saved tests</div>
+        <span class="count-pill" id="saved-count">0</span>
+      </div>
+      <div id="saved-list"></div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

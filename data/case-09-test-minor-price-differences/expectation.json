@@ -1,0 +1,13 @@
+{
+  "test_case_name": "Test minor price differences",
+  "description": null,
+  "expected_status": "Ready to Post",
+  "expectation_criteria": "All invoice items should be matched successfully, including:\n\n**12606727 - FRUITBAR STRAW CerBr MP16(6x23.5g)N4 PT**\n\nwhich should match with:\n\n**FRUITBAR STRAW CERBAR 141G**\n\nThe invoice price of **€2.623 / EA** should be accepted against the matched price of **€2.619 / G** because the difference is only **€0.004**, which is below the **€0.01 price tolerance threshold**.\n\nThis item should therefore be matched and should not be flagged as a price mismatch.",
+  "expected_activated_policies": [
+    "3c40a6aa-4081-4209-9a7f-6b24b5a1dba3"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "PO Matching"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "test_case_name": "Test policy boundary errors",
+  "description": null,
+  "expected_status": "Needs Verification",
+  "expectation_criteria": "Match the invoice against PO **8161819**.\n\nFlag a price mismatch only when the absolute price difference is **€0.01 or greater**, after converting prices to the same unit of measure.\n\nExpected outcome:\n\n* Only **8432 – MANGO SODA 1Lx6 PET** should be flagged for a price mismatch.\n* Do not flag differences below €0.01.\n* For example, **8436 – LEMON SODA 50clx12 PET**, matched against **LEMON SODA BTL 500ML**, should not be flagged because the normalised prices are **€0.874 per unit versus €0.870 per unit**, a difference of only **€0.004**.\n* Ignore all errors and warnings related to over-supply.",
+  "expected_activated_policies": [
+    "3c40a6aa-4081-4209-9a7f-6b24b5a1dba3",
+    "ba0f7eca-7ced-4408-bc8c-9493ccab4233"
+  ],
+  "policy_match_mode": "all",
+  "tags": [
+    "PO Matching"
+  ]
+}

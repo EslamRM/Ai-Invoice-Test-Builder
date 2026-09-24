@@ -199,19 +199,3 @@ data/              the 9 provided fixtures (read-only)
 AI_USAGE.md
 CHALLENGE.md       the original brief, for reference
 ```
-
-## What I'd improve with more time
-
-- Swap the plain `<textarea>` code editor for a real editor (CodeMirror/Monaco) with
-  Python syntax highlighting and inline error markers at the reported line/column.
-- A real sandbox (gVisor or a locked-down Docker container with `--network=none` and a
-  read-only rootfs) as the final production isolation boundary; the current subprocess +
-  resource limits + AST validation are deliberately lightweight for the exercise.
-- Richer mock generation: expand the current high-confidence expectation shapes into a larger
-  tested library, while keeping unsupported intent fail-closed. The current mock already covers
-  status, PO matching, tolerance/overage, classification, data capture, line counts, catalog
-  mismatch, totals, and named price-boundary checks.
-- Diffing two runs of the same saved test over time (e.g. after editing the pipeline) to
-  show regressions at a glance.
-- Streaming the LLM response into the code editor instead of waiting for the full
-  completion.

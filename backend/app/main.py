@@ -1,4 +1,5 @@
 """FastAPI application wiring together cases, LLM generation, execution and persistence."""
+import utils.session
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any, Optional
